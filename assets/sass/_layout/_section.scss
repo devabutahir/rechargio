@@ -2119,6 +2119,7 @@
     }
 }
 .qustion__thumb{
+    animation: updown 3s ease-in-out infinite;
     width: 100%;
     img{
         width: 100%;
@@ -3381,6 +3382,7 @@
     }
 }
 .app__thumb{
+    animation: updown 2s linear infinite;
     @include breakpoint(max-md){
         width: 100%;
         img{
@@ -3390,6 +3392,7 @@
 }
 .app__thumb__two{
     width: 100%;
+    animation: updown 2s linear infinite;
     img{
         width: 100%;
     }
@@ -3416,7 +3419,37 @@
         transform: translateY(-10px);
     }
 }
+.woman__gallery{
+    overflow: hidden;
+    border-radius: 10px;
+    img{
+        overflow: hidden;
+        transition: all 0.4s;
+    }
+    &:hover{
+        img{
+            transform: scale(1.1);
+        }
+    }
+}
 //app section End
+
+// Congkrit
+.galleryhotel__item{
+    transition: all 0.4s;
+    overflow: hidden;
+    border-radius: 10px;
+    img{
+        transition: all 0.4s;    
+        overflow: hidden;    
+    }
+    &:hover{
+        img{
+            transform: scale(1.1);
+        }
+    }
+}
+// Congkrit
 
 //support section Here
 .support__section{
@@ -5889,6 +5922,7 @@ form{
 
 //bus fasilities here
 .bus__fasilitiesthumb{
+    animation: updown 2s ease-in-out infinite;
     width: 100%;
     padding: 0 30px;
     img{
@@ -5998,6 +6032,7 @@ form{
     }
 }
 .car__facilitiesthumb{
+    animation: updown 2s ease-in-out infinite;
     @include breakpoint(max-lg){
         width: 100%;
         img{
@@ -6183,6 +6218,8 @@ form{
         position: relative;
         z-index: 1;
         .tumb{
+            transition: all 0.3s ease-in-out;
+            overflow: hidden;
             &:not(:last-child){
                 margin-bottom: 20px;
                 @include breakpoint(max-lg){
@@ -6192,11 +6229,18 @@ form{
             border-radius: 10px;
             img{
                 border-radius: 10px;
+                transition: all 0.3s ease-in-out;
+                overflow: hidden;
             }
             @include breakpoint(max-xxl){
                 width: 100%;
                 img{
                     width: 100%;
+                }
+            }
+            &:hover{
+                img{
+                    transform: scale(1.1);
                 }
             }
         }
@@ -6212,6 +6256,7 @@ form{
     padding: 0 0;
 }
 .car__facilitiesthumb2{
+    animation: updown 4s infinite;
     @include breakpoint(max-xxl){
         width: 100%;
         img{

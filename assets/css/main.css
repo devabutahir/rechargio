@@ -6796,6 +6796,7 @@ p {
 }
 
 .qustion__thumb {
+  animation: updown 3s ease-in-out infinite;
   width: 100%;
 }
 .qustion__thumb img {
@@ -8062,6 +8063,9 @@ p {
   font-family: "Lato", sans-serif;
 }
 
+.app__thumb {
+  animation: updown 2s linear infinite;
+}
 @media (max-width: 767px) {
   .app__thumb {
     width: 100%;
@@ -8073,6 +8077,7 @@ p {
 
 .app__thumb__two {
   width: 100%;
+  animation: updown 2s linear infinite;
 }
 .app__thumb__two img {
   width: 100%;
@@ -8102,6 +8107,31 @@ p {
     transform: translateY(-10px);
   }
 }
+.woman__gallery {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.woman__gallery img {
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.woman__gallery:hover img {
+  transform: scale(1.1);
+}
+
+.galleryhotel__item {
+  transition: all 0.4s;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.galleryhotel__item img {
+  transition: all 0.4s;
+  overflow: hidden;
+}
+.galleryhotel__item:hover img {
+  transform: scale(1.1);
+}
+
 .support__section {
   position: relative;
   overflow: hidden;
@@ -10637,6 +10667,7 @@ form .cmn__btn span i {
 }
 
 .bus__fasilitiesthumb {
+  animation: updown 2s ease-in-out infinite;
   width: 100%;
   padding: 0 30px;
 }
@@ -10749,6 +10780,9 @@ form .cmn__btn span i {
   }
 }
 
+.car__facilitiesthumb {
+  animation: updown 2s ease-in-out infinite;
+}
 @media (max-width: 991px) {
   .car__facilitiesthumb {
     width: 100%;
@@ -10945,6 +10979,8 @@ form .cmn__btn span i {
   z-index: 1;
 }
 .worldwide__tumb__wrapper .thumb__innner .tumb {
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
   border-radius: 10px;
 }
 .worldwide__tumb__wrapper .thumb__innner .tumb:not(:last-child) {
@@ -10957,6 +10993,8 @@ form .cmn__btn span i {
 }
 .worldwide__tumb__wrapper .thumb__innner .tumb img {
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
 }
 @media (max-width: 1399px) {
   .worldwide__tumb__wrapper .thumb__innner .tumb {
@@ -10965,6 +11003,9 @@ form .cmn__btn span i {
   .worldwide__tumb__wrapper .thumb__innner .tumb img {
     width: 100%;
   }
+}
+.worldwide__tumb__wrapper .thumb__innner .tumb:hover img {
+  transform: scale(1.1);
 }
 .worldwide__tumb__wrapper .car__rount {
   position: absolute;
@@ -10977,6 +11018,9 @@ form .cmn__btn span i {
   padding: 0 0;
 }
 
+.car__facilitiesthumb2 {
+  animation: updown 4s infinite;
+}
 @media (max-width: 1399px) {
   .car__facilitiesthumb2 {
     width: 100%;
