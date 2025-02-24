@@ -1606,7 +1606,7 @@ p {
 }
 
 .promo__sponsor__item .promo__box:not(:last-child) {
-  margin-bottom: 24px;
+  margin-bottom: 13px;
 }
 .promo__sponsor__item:last-child {
   margin-right: 2px;
@@ -5961,6 +5961,7 @@ p {
 }
 
 .booksolving__thumb {
+  animation: updown 3s ease-in-out infinite;
   width: 100%;
   margin-left: 5rem;
 }
